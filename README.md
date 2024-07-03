@@ -92,14 +92,14 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
 
     The table above is the symbol table for the program above. Since in Hack system we allocate memory for variable from memory 16 so the memory location for variable *i* will be 16 and *sum* will be 17. To specify label *LOOP* and *END* we count the number of instructions in the program so that *LOOP* will be4 and *END* will be 18. 
 
-### [Chapter 7: Virtual machine I - Stack arithmetic](nand2tetris/projects/07) 
-### [Chapter 8: Virtual machine II - Program control](nand2tetris/projects/08)
-### [Chapter 9: High-level language](nand2tetris/projects/09)
-### [Chapter 10: Compiler I - Syntax analysis](nand2tetris/projects/10)
+### [Chapter 7: Virtual machine I - Stack Arithmetic](nand2tetris/projects/07) 
+### [Chapter 8: Virtual machine II - Program Control](nand2tetris/projects/08)
+### [Chapter 9: High-level Language](nand2tetris/projects/09)
+### [Chapter 10: Compiler I - Syntax Analysis](nand2tetris/projects/10)
 
-### [Chapter 11: Compiler II - Code generation](nand2tetris/projects/11)
+### [Chapter 11: Compiler II - Code Generation](nand2tetris/projects/11)
 The compilation of high-level programming language into a low-level one focuses on 2 main issues: ***data translation*** and ***command translation***
-#### 11.1 Data translation
+#### 11.1 Data Translation
 * **Variables** For variables we need to care about some of its properties
     * *type*: integer, char, boolean, array, object
     * *kind*: field, static, local, argument
