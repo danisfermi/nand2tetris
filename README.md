@@ -9,7 +9,7 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
 > —Confucius, 551–479 BC
 
 
-### [Chapter 1: Boolean logic](nand2tetris/projects/01)
+### [Chapter 1: Boolean Logic](nand2tetris/projects/01)
 * **Truth table representation**
 * **Canonical representation**
 * **Logic gates**
@@ -23,7 +23,7 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
     * DMux(in, sel)
     <br />![](images/dmux.png)
 
-### [Chapter 2: Boolean arithmetic](nand2tetris/projects/02)
+### [Chapter 2: Boolean Arithmetic](nand2tetris/projects/02)
 * **Signed Binary Number**: Most computer systems today use the method called *2's complement*, aka *radix complement*. In 2's complement of n bits, x + (minus) x = 2 to the n. With *radix complement* we don't need to care about substraction operation. We can substract with add operation. That's super cool. So we only need Adders chip.
 <br />![radix](images/radix.png)
 
@@ -36,7 +36,7 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
 * **ALU**
 <br />![](images/alu.png)
 
-### [Chapter 3: Sequential logic](nand2tetris/projects/03)
+### [Chapter 3: Sequential Logic](nand2tetris/projects/03)
 * **Combinational vs Sequential Logic**
 <br />![comb-vs-seq](images/combinational-vs-sequential.png)
     * **Combinational Logic**: An implementation of boolean function. The output depends on only the input. Meaning with a certain input there is a certain output.
@@ -44,7 +44,7 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
         * Use clock
         * Maintain state
         * Output depends on input and the current state
-    * [Good explaination of differences between Combinational and Sequential](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Seq/diff.html)
+    * [Good Explaination of Differences between Combinational and Sequential](https://www.cs.umd.edu/class/sum2003/cmsc311/Notes/Seq/diff.html)
 
 
 * **Data Flip-Flop (DFF)** contains a clock input, a gate's input and a gate's output. DFF behavior is *out(t) = in(t-1)* where t is the current clock cycle. 
@@ -56,14 +56,14 @@ Thanks professor Noam Nisan and professor Shimon Shocken for writing a super coo
 <br />![ram](images/ram.png)
 
 
-### [Chapter 4: Machine language](nand2tetris/projects/04)
+### [Chapter 4: Machine Language](nand2tetris/projects/04)
 * **A Instruction**
 <br />![a](images/a-instruction.png)
 * **C Instruction**
 <br />![a](images/c-instruction.png)
 
 
-### [Chapter 5: Computer architecture](nand2tetris/projects/05)
+### [Chapter 5: Computer Architecture](nand2tetris/projects/05)
 * **Central Processing Unit (CPU) of Hack Computer**
     * *CPU Abstraction*
     <br />![abstraction](images/cpu-abstraction.png)
